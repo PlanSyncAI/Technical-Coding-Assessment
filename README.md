@@ -14,9 +14,9 @@ Sample 401(k) plan adoption agreements are provided in the `Documents/` folder f
 
 | Criteria | Weight | What We Look For |
 |----------|--------|------------------|
-| Functionality | 30% | Does it work? Can we upload PDFs and see extracted data? |
-| Streaming Implementation | 25% | Is SSE implemented correctly? Does the UI update in real-time? |
-| Code Quality | 20% | Clean, readable code. Proper error handling. Good structure. |
+| Functionality | 40% | Does it work? Can we upload a PDF and see extracted data? |
+| Parallel Processing | 25% | Can it handle multiple pdfs at the same time without queuing? Embarrassingly parallel system should work |
+| Speed | 10% | Can you make the processing time per extraction for a pdf faster? |
 | UI/UX | 15% | Is the interface intuitive? Loading states? Error messages? |
 | Documentation | 10% | README with setup instructions. Code comments where needed. |
 
